@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["Dennis Van de Vorst <dennis.van.de.vorst@enexis.nl>"]
 readme = "README.md"
-packages = [{ include = "python_unittest_exercise" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
