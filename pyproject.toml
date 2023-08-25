@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "python-unittest-exercise"
+version = "0.1.0"
+description = ""
+authors = ["Dennis Van de Vorst <dennis.van.de.vorst@enexis.nl>"]
+readme = "README.md"
+packages = [{ include = "python_unittest_exercise" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.25.2"
+ipykernel = "^6.25.1"
+pandas = "^2.0.3"
+pytest = "^7.4.0"
+ruff = "^0.0.285"
+matplotlib = "^3.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = "./"
