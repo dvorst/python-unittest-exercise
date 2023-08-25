@@ -50,10 +50,12 @@ class TestCalculator:
     def test_multiply_negative_numbers(self):
         assert Calculator.multiply(-2, -3) == 6
 
-    # Tests that dividing a negative number by a positive number returns the correct result
+    # Tests that dividing a negative number by a positive number returns the
+    # correct result
     def test_divide_negative_by_positive(self):
         assert Calculator.divide(-10, 2) == -5
 
-    # Tests that dividing a negative number by a negative number returns the correct result
+    # Tests that dividing a negative number by a negative number returns the
+    # correct result
     def test_divide_negative_numbers(self):
         assert Calculator.divide(-10, -2) == 5
